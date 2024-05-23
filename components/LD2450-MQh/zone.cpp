@@ -60,7 +60,7 @@ namespace esphome::ld2450
        
        for (Target *target : targets)
       {
-            if(cintains_target(target)){
+            if(contains_target(target)){
                 AllTargetCounter++;
             }  
       }
