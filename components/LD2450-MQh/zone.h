@@ -131,12 +131,14 @@ namespace esphome::ld2450
          * @brief checks if a Target is contained within the zone
          * @return true if the target is currently tracked inside this zone.
          */
-        bool contains_target(Target *target){
+
+        bool contains_target(Target *target);
+        /*bool contains_target(Target *target){
             if(target!=NULL)
                 return  true;
             else
                 return false;
-        }
+        }*/
 
         /// @brief Name of this zone
         const char *name_ = "Unnamed Zone";
